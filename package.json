@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Imbricate/Imbricate-Core.git"
+    "url": "git+https://github.com/Imbricate/Imbricate-Preset.git"
   },
   "keywords": [
     "API"
@@ -23,7 +23,7 @@
   "author": "WMXPY",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Imbricate/Imbricate-Core/issues"
+    "url": "https://github.com/Imbricate/Imbricate-Preset/issues"
   },
   "homepage": "https://imbricate.io",
   "devDependencies": {
