@@ -26,10 +26,14 @@
     "url": "https://github.com/Imbricate/Imbricate-Preset/issues"
   },
   "homepage": "https://imbricate.io",
+  "peerDependencies": {
+    "@imbricate/core": "*"
+  },
   "devDependencies": {
     "@babel/core": "^7",
     "@babel/preset-env": "^7",
     "@babel/preset-typescript": "^7",
+    "@imbricate/core": "^0",
     "@types/jest": "^29",
     "@typescript-eslint/eslint-plugin": "^7",
     "@typescript-eslint/parser": "^7",

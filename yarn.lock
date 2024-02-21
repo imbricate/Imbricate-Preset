@@ -1471,6 +1471,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@imbricate/core@npm:^0":
+  version: 0.1.0
+  resolution: "@imbricate/core@npm:0.1.0"
+  checksum: 10c0/3f301debc988ff23b3dea3392e9c45312b67db22665361bb0f615e0c71695f5dd2136e285391993af8e9410103315bb5ffe5e783130d3b7b755b63700e8761df
+  languageName: node
+  linkType: hard
+
 "@imbricate/preset@workspace:.":
   version: 0.0.0-use.local
   resolution: "@imbricate/preset@workspace:."
@@ -1478,6 +1485,7 @@ __metadata:
     "@babel/core": "npm:^7"
     "@babel/preset-env": "npm:^7"
     "@babel/preset-typescript": "npm:^7"
+    "@imbricate/core": "npm:^0"
     "@types/jest": "npm:^29"
     "@typescript-eslint/eslint-plugin": "npm:^7"
     "@typescript-eslint/parser": "npm:^7"
@@ -1486,6 +1494,8 @@ __metadata:
     jest: "npm:^29"
     ts-node: "npm:^10"
     typescript: "npm:^5"
+  peerDependencies:
+    "@imbricate/core": "*"
   languageName: unknown
   linkType: soft
 
