@@ -6,14 +6,17 @@
 
 export class ImbricatePresetServe {
 
-    public static fromScratch(): ImbricatePresetServe {
+    public static protocol(
+        protocol: string,
+    ): ImbricatePresetServe {
 
-        return new ImbricatePresetServe();
+        return new ImbricatePresetServe(protocol);
     }
 
     private readonly _protocol: string;
 
-    private constructor() {
+    private constructor(protocol: string) {
 
+        this._protocol = protocol;
     }
 }
